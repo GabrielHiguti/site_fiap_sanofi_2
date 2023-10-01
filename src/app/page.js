@@ -125,14 +125,7 @@ const ReceiptScanner = () => {
       >
         Save Data
       </button>
-      <button
-        id="editButton"
-        disabled={!result}
-        onClick={enableEditing}
-        className="bg-yellow-500 text-white py-2 px-4 rounded cursor-pointer transition font-bold mt-4 disabled:bg-gray-400 disabled:cursor-not-allowed hover:bg-yellow-700"
-      >
-        Edit
-      </button>
+      
       <Link href="/savepage">
         <button className="bg-blue-500 text-white py-2 px-4 rounded cursor-pointer transition font-bold mt-4 hover:bg-blue-700">
           Go to Save Page
